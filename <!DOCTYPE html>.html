@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dusty Thrifts</title>
+  <style>
+    body {
+      margin: 0.5;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #dce4ec;
+      color: #77ace2;
+    }
+
+    header {
+      background-color: #77ace2;
+      color: white;
+      padding: 1rem 2rem;
+      text-align: center;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #0055aa;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      padding: 1rem;
+      display: block;
+    }
+
+    nav a:hover {
+      background-color: #003366;
+    }
+
+    .hero {
+      background: url('https://via.placeholder.com/1200x400?text=Dusty+Thrifts') no-repeat center center/cover;
+      height: 400px;
+    }
+
+    .section {
+      padding: 2rem;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+    }
+
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    footer {
+      background-color: #003366;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+.scroll-gallery img {
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 10px;
+}
+
+img {
+  
+  display: block;
+}
+
+
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Dusty Thrifts</h1>
+    <p>Vintage finds curated with love</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <p>  Welcome to Dusty Thrifts, your go-to destination for unique vintage clothing.</p>
+  
+  <h2>A snippet of our Finds</h2>
+  
+  <div class="scroll-gallery">
+  
+        <img src="tee.jpg" alt="pants" width="400" height="450">
+        <img src="jerseys.jpg" alt="pants" width="400" height="450">
+        <img src="accessories1.jpg" alt="accessories" width="400" height="450">
+        <img src="me.jpg" alt="jerseys" width="400" height="450">
+        <img src="jersey1.jpg" alt="Vintage Jerseys" width="400" height="450">
+        <img src="pants1.jpeg" alt="Vintage Jerseys" width="400" height="450">
+        <img src="jersey3.JPG" alt="Vintage Jerseys" width="400" height="450">
+        <img src="tee1.jpg" alt="Vintage Jerseys" width="400" height="450">
+        <img src="pants3.jpeg" alt="Vintage Jerseys" width="400" height="450">
+       
+  </div>
+
+
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>Dusty Thrifts is a handpicked vintage clothing store where old meets gold.
+We specialize in timeless vintage jerseys, classic pants, one of a kind accessories and clothing items that add character to any wardrobe.
+Each piece we offer carries a bit of history, a whisper from another era, chosen not just for its look, but for the story it tells.
+Whether you’re hunting for a statement item or building a curated collection, Dusty Thrifts helps you wear nostalgia with pride.</p>
+  </section>
+
+  <section id="gallery" class="section">
+    <h2>Our Collection</h2>
+    <div class="gallery">
+      <img src="pants.jpg" alt="pants" width="200" height="450">
+      <img src="accessories.jpg" alt="accessories" width="200" height="450">
+      <img src="jerseys.jpg" alt="Vintage Jerseys" width="200" height="450">
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Get in Touch</h2>
+    <p>DM us on <a href="https://www.instagram.com/dustythrifts.co/" target="_blank">Instagram</a> to place your order or ask questions!</p>
+    <p>dustythrifts@outlook.co.za</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Dusty Thrifts. All rights reserved.</p>
+  </footer>
+</body>
+</html>

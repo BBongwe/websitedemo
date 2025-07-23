@@ -1,0 +1,74 @@
+/* Basic Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Blue Ribbon Header */
+.blue-ribbon {
+    background-color: #003366; /* Deep Blue */
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 2.5rem;
+}
+
+/* Our Finds Section */
+.our-finds {
+    text-align: center;
+    margin: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.our-finds h2 {
+    color: #003366;
+    margin-bottom: 30px;
+    font-size: 2rem;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.item {
+    width: 200px;
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #003366;
+    font-size: 1.1rem;
+}
+<style>
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 1rem;
+  padding: 1rem 0;
+  scroll-behavior: smooth;
+}
+
+.scroll-gallery img {
+  flex: 0 0 auto;
+  width: 200px;
+  border-radius: 10px;
+}
+</style>
+
+img {
+  
+  display: block;
+}
